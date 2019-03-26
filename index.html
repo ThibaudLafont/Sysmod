@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <!-- Title of the page -->
+    <!-- TODO : define the title in each page template -->
+    <title>Sysmod</title>
+
+    <!-- Global stylesheets -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.png" />
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+    <img id="logo" src="images/logo.png" alt="Logo Sysmod">
+
+    <p class="big">
+        Site en construction
+    </p>
+
+    <p id="contact">
+        06 77 61 25 26 <br/>
+        contact@sysmod.fr
+    </p>
+
+    <p id="loading" class="big"></p>
+</body>
+
+<script type="text/javascript">
+    
+    window.setInterval(loading, 1000)
+
+    function loading() {
+        var loading = document.getElementById('loading');
+        if(loading.textContent.length < 5 ) {
+            loading.textContent += '.';
+        } else if(loading.textContent.length === 5) {
+            loading.textContent = '';
+        }
+    }
+
+</script>
+
+</html>

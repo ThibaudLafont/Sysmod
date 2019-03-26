@@ -1,0 +1,46 @@
+* {
+	box-sizing: border-box;
+}
+html {
+	height: 100%;
+	width: 100%;
+	display: table;
+}
+body {
+	text-align: center;	
+	padding: 4rem;
+	width: 100%;
+	margin:0;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+body img#logo {
+	display: block;
+	margin: auto;
+	width: 100%;
+	max-width: 250px;
+}
+body p{
+	color : #64CF77;
+	clear: both;
+}
+p.big {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+p#loading {
+	display: block;
+	width: 100%;
+	height: 25px;
+}
+
+p#contact {
+	display : block;
+	margin: auto;
+	color: #FF5D00;
+	font-size: 20px;
+	font-weight: bold;
+	max-width: 250px;
+}
