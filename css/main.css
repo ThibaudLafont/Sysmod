@@ -114,3 +114,66 @@ section#top-section h1{
 section#top-section p {
 	font-size: 20px;
 }
+
+/* Biography */
+/* Header */
+section#biography div.header {
+	display: table;
+	padding: 2rem 0;
+}
+section#biography div.header > * {
+	display: table-cell;
+	vertical-align: middle;
+}
+section#biography div.header div.content{
+	/*width: 75%;*/
+	margin: auto;
+	border-width : 0 1px; 
+	border-style: solid;
+	border-color: #64CF77;
+	text-align: center;
+	font-style: italic;	
+}
+section#biography div.header div.deco {
+	height: 1px;
+	width: 12.5%;
+    background: linear-gradient(180deg, 
+        rgba(0,0,0,0) calc(50% - 1px), 
+        #64CF77 calc(50%), 
+        rgba(0,0,0,0) calc(50% + 1px)
+    );
+}
+section#biography div.header div.content h2 {
+	font-size: 35px;
+	color: #64CF77;
+	margin: 0;
+}
+section#biography div.header p{
+	width: 75%;
+	margin: auto;
+}
+/* Content */
+section#biography > div.content > * {
+	float: left;
+}
+section#biography > div.content div.aside {
+	width: 45%;
+}
+section#biography > div.content div.aside > img {
+	width: 100%;
+}
+section#biography > div.content div.aside > ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+section#biography > div.content div.aside > ul > li {
+	display: inline;
+}
+section#biography > div.content div.aside > ul > li > a {
+	text-decoration: none;
+}
+section#biography > div.content div.biography {
+	width: 55%;
+}
