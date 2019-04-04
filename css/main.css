@@ -276,3 +276,23 @@ section#technologies section#honeycomb-display > div {
 section#technologies section#honeycomb-display img {
 	max-width: 300px;
 }
+section#technologies section#legended-infos {
+	padding-top: 2rem;
+}
+section#technologies section#legended-infos > div {
+	clear: both;
+	overflow: auto;
+	margin-bottom: 2rem;
+}
+section#technologies section#legended-infos > div > div.part {
+	display: table;
+	width: 50%;
+	float: left;
+}
+section#technologies section#legended-infos > div > div.part > * {
+	display: table-cell;
+	vertical-align: middle;
+}
+section#technologies section#legended-infos > div > div.part > img {
+	margin-right: 1rem;
+}
