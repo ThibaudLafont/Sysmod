@@ -293,6 +293,9 @@ section#technologies section#legended-infos > div > div.part > * {
 	display: table-cell;
 	vertical-align: middle;
 }
-section#technologies section#legended-infos > div > div.part > img {
-	margin-right: 1rem;
+section#technologies section#legended-infos > div > div.part > p {
+	padding: 0 1.5rem;
+}
+section#technologies > div {
+	text-align: center;
 }
