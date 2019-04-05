@@ -118,7 +118,7 @@ div.header div.content{
 	border-color: #64CF77;
 	text-align: center;
 	font-style: italic;	
-	padding: 0 1rem;
+	padding: 0 2rem;
 	overflow: auto;
 }
 div.header div.deco {
@@ -308,15 +308,22 @@ section#technologies > div {
 /* Projects */
 section#projects {
 	background: url('/images/photos/1024px/thibaud-lafont-coding-session.jpg');
+	background-repeat: none;
+	background-size: cover;
 	padding: 2rem 0;
 	overflow: auto;
 }
 section#projects div.container > div {
 	width: 25%;
-	padding: 0 1rem;
+	padding: 1rem 1rem 2rem 1rem;
 	float: left;
 }
 section#projects > .container > div > img {
 	display: block;
 	margin: auto;
+}
+
+/* Contact */
+section#contact {
+	padding: 2rem 0;
 }
