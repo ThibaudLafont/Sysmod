@@ -139,6 +139,19 @@ div.header p{
 	margin: auto;
 }
 
+/* BG-image header */
+section#choose-sysmod h2,
+section#projects h2 {
+	margin-top: 0;
+	text-align: center;
+	font-weight: normal;
+	color: white;
+}
+section#choose-sysmod h2 span,
+section#projects h2 span {
+	color: #FF5D00;
+}
+
 /* Top section */
 section#top-section {
 	text-align: center;
@@ -213,14 +226,6 @@ section#choose-sysmod {
 section#choose-sysmod .container {
 	overflow: auto;
 	color: white;
-}
-section#choose-sysmod h2 {
-	margin-top: 0;
-	text-align: center;
-	font-weight: normal;
-}
-section#choose-sysmod h2 span{
-	color: #FF5D00;
 }
 section#choose-sysmod div.container > div {
 	display: table;
@@ -298,4 +303,20 @@ section#technologies section#legended-infos > div > div.part > p {
 }
 section#technologies > div {
 	text-align: center;
+}
+
+/* Projects */
+section#projects {
+	background: url('/images/photos/1024px/thibaud-lafont-coding-session.jpg');
+	padding: 2rem 0;
+	overflow: auto;
+}
+section#projects div.container > div {
+	width: 25%;
+	padding: 0 1rem;
+	float: left;
+}
+section#projects > .container > div > img {
+	display: block;
+	margin: auto;
 }
