@@ -221,9 +221,9 @@
         
         <section class="content">
             <form>
-                <input type="text" name="full-name" id="full-name" placeholder="Nom complet">
-                <input type="email" name="email" id="email" placeholder="Email">
-                <textarea placeholder="Votre message" rows="10"></textarea>
+                <input type="text" name="full-name" id="full-name" placeholder="Nom complet" aria-label="Nom complet">
+                <input type="email" name="email" id="email" placeholder="Email" aria-label="Email">
+                <textarea placeholder="Votre message" rows="10" aria-label="Votre message"></textarea>
                 <button type="submit" class="orange-classic" aria-label="Envoyer le mail">ENVOYER</button>
             </form>
 
