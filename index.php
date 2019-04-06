@@ -32,7 +32,7 @@
         <section>
             <div class="contact">
                 <p>Appelez-nous <span>(+33) 6 77 61 25 26</span></p>
-                <button aria-label="Aller au formulaire de contact">
+                <button onClick="location.href='#contact'" aria-label="Aller au formulaire de contact">
                     <svg xmlns="http://www.w3.org/2000/svg" width="15" height="100%" viewBox="0 0 24 24">
                         <path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/>
                     </svg>
@@ -57,7 +57,7 @@
         <div class="content">
             <h1>SYSMOD-WEB</h1>
             <p>Envie d'un site web ? Faites nous confiance, <br/>comme bien d'autres avant vous !</p>
-            <button class='orange-classic' aria-label="Aller au formulaire de contact">Contact</button>       
+            <button onClick="location.href='#contact'" class='orange-classic' aria-label="Aller au formulaire de contact">Contact</button>       
         </div>
     </section>
 
@@ -101,7 +101,7 @@
                 <p>J'ai suivi une formation de programmation web (spécialité PHP), au cours de laquelle j'ai 
                 développé des compétences en HTML, CSS, PHP, SQL et Javascript.</p> 
                 <p>J'ai su renforcer mon savoir-faire en réalisant de nombreux projets avec des interlocuteurs variés : entreprises, organismes culturels, particuliers et universitaires.</p>
-                <button class="orange-classic" aria-label="Aller au formulaire de contact">NOUS CONTACTER</button>
+                <button onClick="location.href='#contact'" class="orange-classic" aria-label="Aller au formulaire de contact">NOUS CONTACTER</button>
             </div>
         </div>
     </section>
@@ -135,7 +135,7 @@
                             <span>Backend adapté à vos besoins</span>
                         </li>
                     </ul>
-                    <button class="orange-classic" aria-label="Aller au formulaire de contact">CONTACT</button>
+                    <button onClick="location.href='#contact'" class="orange-classic" aria-label="Aller au formulaire de contact">CONTACT</button>
                 </div>
             </div>
         </div>
@@ -192,7 +192,7 @@
 
         <!-- Contact button -->
         <div>
-            <button class="orange-classic" aria-label="Aller au formulaire de contact">CONTACT</button>
+            <button onClick="location.href='#contact'" class="orange-classic" aria-label="Aller au formulaire de contact">CONTACT</button>
         </div>
     </section>
 
