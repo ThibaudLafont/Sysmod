@@ -18,6 +18,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/900px.css" media="screen and (max-width: 900px)">
+    <link rel="stylesheet" href="/css/500px.css" media="screen and (max-width: 500px)">
 
 </head>
 
@@ -91,7 +92,7 @@
                 <p>J'ai suivi une formation de programmation web (spécialité PHP), au cours de laquelle j'ai 
                 développé des compétences en HTML, CSS, PHP, SQL et Javascript.</p> 
                 <p>J'ai su renforcer mon savoir-faire en réalisant de nombreux projets avec des interlocuteurs variés : entreprises, organismes culturels, particuliers et universitaires.</p>
-                <button class="orange-classic">ME CONTACTER</button>
+                <button class="orange-classic">NOUS CONTACTER</button>
             </div>
         </div>
     </section>

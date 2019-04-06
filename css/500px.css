@@ -1,0 +1,57 @@
+/* Header */
+header div.contact button svg {
+    margin-right: 0;
+}
+header div.contact button span {
+    display: none;
+}
+header div.contact p {
+    display: none;
+}
+
+/* Top Section */
+
+/* Orange button */
+section#biography > div.content div.biography button,
+section#choose-sysmod button,
+section#contact button {
+    width: 100%;
+}
+
+/* Bordred header */
+div.header div.content {
+	border: none;
+	padding: 0;
+}
+/* Other titles */
+section#choose-sysmod h2, section#projects h2, div.header div.content {
+	word-wrap: break-word;
+	word-break: break-word;
+}
+
+/* Choose sysmod */
+section#choose-sysmod div.container > div > * {
+    padding: 0;
+}
+
+/* Technologuies */
+section#technologies section#legended-infos > div > div.part {
+    display: block;
+    text-align: center;
+}
+section#technologies section#legended-infos > div > div.part > img {
+    display: inline;
+}
+section#technologies section#legended-infos > div > div.part > p {
+    padding: 0.75rem 0 0 0;
+}
+
+/* Projects */
+section#projects > .container > div > img {
+    width: 100%;
+}
+
+footer section.container img {
+	display: block;
+	margin: auto;
+}

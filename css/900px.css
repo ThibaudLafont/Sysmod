@@ -1,3 +1,9 @@
+/* General */
+
+div.header div.deco {
+	display: none;
+}
+
 /* Biography */
 section#biography > div.content > div.aside {
 	width: 100%;

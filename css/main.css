@@ -171,12 +171,17 @@ section#top-section div.content{
 	font-style: italic;
 	background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
 }
+section#top-section h1,
+section#top-section p {
+	width: 75%;
+}
 section#top-section h1{
-	margin: 0 0 0.5rem 0;
+	margin: 0 auto 0.5rem auto;
 	font-size: 30px;
 }
 section#top-section p {
 	font-size: 20px;
+	margin: 0 auto 1.5rem auto;
 }
 
 /* Biography */
