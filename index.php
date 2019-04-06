@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
     <!-- Meta tags -->
@@ -23,7 +23,7 @@
 <body>
     <!-- Header -->
     <header class="container">
-        <img src="/images/logo/100px/logo-sysmod.jpg">
+        <img src="/images/logo/100px/logo-sysmod.jpg" alt="Logo de Sysmod">
         <section>
             <div class="contact">
                 <p>Appelez-nous <span>(+33) 6 77 61 25 26</span></p>
@@ -40,7 +40,7 @@
     <!-- Navigation bar -->
     <nav>
         <ul>
-            <li><a href="">À propos</a></a></li>
+            <li><a href="">À propos</a></li>
             <li><a href="">Sysmod</a></li>
             <li><a href="">Projets</a></li>
             <li><a href="">Contact</a></li>
@@ -109,7 +109,7 @@
                         </li>
                         <li>
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21.856 10.303c.086.554.144 1.118.144 1.697 0 6.075-4.925 11-11 11s-11-4.925-11-11 4.925-11 11-11c2.347 0 4.518.741 6.304 1.993l-1.422 1.457c-1.408-.913-3.082-1.45-4.882-1.45-4.962 0-9 4.038-9 9s4.038 9 9 9c4.894 0 8.879-3.928 8.99-8.795l1.866-1.902zm-.952-8.136l-9.404 9.639-3.843-3.614-3.095 3.098 6.938 6.71 12.5-12.737-3.096-3.096z"/></svg>
-                            <span>Hébergement de votre site web</span></li>
+                            <span>Hébergement de votre site web</span>
                         </li>
                         <li>
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21.856 10.303c.086.554.144 1.118.144 1.697 0 6.075-4.925 11-11 11s-11-4.925-11-11 4.925-11 11-11c2.347 0 4.518.741 6.304 1.993l-1.422 1.457c-1.408-.913-3.082-1.45-4.882-1.45-4.962 0-9 4.038-9 9s4.038 9 9 9c4.894 0 8.879-3.928 8.99-8.795l1.866-1.902zm-.952-8.136l-9.404 9.639-3.843-3.614-3.095 3.098 6.938 6.71 12.5-12.737-3.096-3.096z"/></svg>
@@ -218,22 +218,22 @@
 
             <div>
                 <div>
-                    <span>
+                    <div>
                         <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 24 24"><path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"/></svg>
-                    </span>
-                    <span>
+                    </div>
+                    <div>
                         <h4>LOCALISATION</h4>
                         <p>Blois, Centre Val de Loire</p>
-                    </span>
+                    </div>
                 </div>
                 <div>
-                    <span>
+                    <div>
                         <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 24 24"><path d="M20.89 23.654c-7.367 3.367-18.802-18.86-11.601-22.615l2.107-1.039 3.492 6.817-2.083 1.026c-2.189 1.174 2.37 10.08 4.609 8.994.091-.041 2.057-1.007 2.064-1.011l3.522 6.795c-.008.004-1.989.978-2.11 1.033zm-9.438-2.264c-1.476 1.072-3.506 1.17-4.124.106-.47-.809-.311-1.728-.127-2.793.201-1.161.429-2.478-.295-3.71-1.219-2.076-3.897-1.983-5.906-.67l.956 1.463c.829-.542 1.784-.775 2.493-.609 1.653.388 1.151 2.526 1.03 3.229-.212 1.223-.45 2.61.337 3.968 1.243 2.143 4.579 2.076 6.836.316-.412-.407-.811-.843-1.2-1.3z"/></svg>
-                    </span>
-                    <span>
+                    </div>
+                    <div>
                         <h4>TÉLÉPHONE</h4>
                         <p>(+33) 6 77 61 25 26</p>
-                    </span>
+                    </div>
                 </div>
             </div>
         </section>
@@ -242,7 +242,7 @@
     <!-- Footer -->
     <footer>
         <section class="container">
-            <img src="/images/logo/150px/logo-sysmod.png">
+            <img src="/images/logo/150px/logo-sysmod.png" alt="Logo de Sysmod">
         </section>
         <p>
             Copyright © <?php echo date('Y'); ?> Sysmod - Tous droits réservés
