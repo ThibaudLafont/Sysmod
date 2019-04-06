@@ -150,7 +150,7 @@
                 <p>J'ai réalisé une formation à l'issue de laquelle j'ai obtenu un diplome de développeur d'applications web, avec une spécialité PHP/Symfony.</p>
                 <p>Par la suite j'ai eu l'occasion de mettre en pratique mes connaissances en créant diverses applications, avec diverses structures (entreprises, organismes culturels, particuliers et universitaires).</p>
             </div>
-            <img src="/images/pictograms/honeycomb-pictograms.svg" alt="Pictograms of main technologies in honeycomb">
+            <img id="honeycomb" src="/images/pictograms/honeycomb-pictograms.svg" alt="Pictograms of main technologies in honeycomb">
         </section>
 
         <!-- Pictograms section -->
@@ -234,7 +234,7 @@
                     </div>
                     <div>
                         <h4>TÉLÉPHONE</h4>
-                        <p>(+33) 6 77 61 25 26</p>
+                        <a href="tel:5551234567">(+33) 6 77 61 25 26</a>
                     </div>
                 </div>
             </div>
@@ -250,6 +250,8 @@
             Copyright © <?php echo date('Y'); ?> Sysmod - Tous droits réservés
         </p>
     </footer>
+
+    <script type="text/javascript" src="/js/script.js"></script>
 </body>
 
 </html>

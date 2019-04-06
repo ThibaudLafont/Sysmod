@@ -381,8 +381,14 @@ section#contact section.content > div > div h4 {
 	margin: 0;
 	color: #64CF77;
 }
-section#contact section.content > div > div p {
+section#contact section.content > div > div p,
+section#contact section.content > div > div a {
 	margin: 0.5rem 0 0 0;
+}
+section#contact section.content > div > div a {
+	display: block;
+	text-decoration: none;
+	color: black;
 }
 
 /* Footer */
