@@ -2,6 +2,16 @@
 div.header div.deco {
 	display: none;
 }
+/* Header */
+header div.contact button svg {
+    margin-right: 0;
+}
+header div.contact button span {
+    display: none;
+}
+header div.contact p {
+    display: none;
+}
 
 /* Top section */
 section#top-section {

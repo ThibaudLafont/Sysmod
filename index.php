@@ -6,7 +6,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="Description" content="Site de l'agence web Sysmod, développement de sites et d'applications sur mesure, hébergement.
-    Auteur: Thibaud Lafont"
+    Auteur: Thibaud Lafont">
+    <meta name="theme-color" content="#64CF77"/>
 
 
     <!-- Title of the page -->
@@ -31,7 +32,7 @@
         <section>
             <div class="contact">
                 <p>Appelez-nous <span>(+33) 6 77 61 25 26</span></p>
-                <button>
+                <button aria-label="Aller au formulaire de contact">
                     <svg xmlns="http://www.w3.org/2000/svg" width="15" height="100%" viewBox="0 0 24 24">
                         <path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/>
                     </svg>
@@ -44,10 +45,10 @@
     <!-- Navigation bar -->
     <nav>
         <ul>
-            <li><a href="#biography">À propos</a></li>
-            <li><a href="#choose-sysmod">Sysmod</a></li>
-            <li><a href="#projects">Projets</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#biography" aria-label="Aller à la section biographie">À propos</a></li>
+            <li><a href="#choose-sysmod" aria-label="Aller à la section choisir sysmod">Sysmod</a></li>
+            <li><a href="#projects" aria-label="Aller à la section projets">Projets</a></li>
+            <li><a href="#contact" aria-label="Aller à la section contact">Contact</a></li>
         </ul>
     </nav>
 
@@ -56,7 +57,7 @@
         <div class="content">
             <h1>SYSMOD-WEB</h1>
             <p>Envie d'un site web ? Faites nous confiance, <br/>comme bien d'autres avant vous !</p>
-            <button class='orange-classic'>Contact</button>       
+            <button class='orange-classic' aria-label="Aller au formulaire de contact">Contact</button>       
         </div>
     </section>
 
@@ -78,13 +79,19 @@
             <div class="aside">
                 <img src="/images/photos/450px/thibaud-lafont-coding-session.jpg" alt="Thibaud Lafont en séance de coding">
                 <ul class="social-networks">
-                    <li ><a href="https://fr.linkedin.com/in/thibaud-lafont" target="_blank">
+                    <li ><a href="https://fr.linkedin.com/in/thibaud-lafont" 
+                        aria-label="Accéder au profil LinkedIn de Thibaud Lafont" 
+                        target="_blank" rel="noopener">
                         <svg class="linkedIn-logo" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                     </a></li>
-                    <li><a href="https://twitter.com/SysmodWeb" target="_blank">
+                    <li><a href="https://twitter.com/SysmodWeb" 
+                        aria-label="Accéder au profil Twitter de Sysmod Web" 
+                        target="_blank" rel="noopener">
                         <svg class="twitter-logo" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-.139 9.237c.209 4.617-3.234 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.08-4.03 3.199-4.03.943 0 1.797.398 2.395 1.037.748-.147 1.451-.42 2.086-.796-.246.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.439.656-.996 1.234-1.639 1.697z"/></svg>
                     </a></li>
-                    <li><a href="https://github.com/ThibaudLafont" target="_blank">
+                    <li><a href="https://github.com/ThibaudLafont" 
+                        aria-label="Accéder au repository GitHub de Thibaud Lafont" 
+                        target="_blank" rel="noopener">
                         <svg class="github-logo" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-4.466 19.59c-.405.078-.534-.171-.534-.384v-2.195c0-.747-.262-1.233-.55-1.481 1.782-.198 3.654-.875 3.654-3.947 0-.874-.312-1.588-.823-2.147.082-.202.356-1.016-.079-2.117 0 0-.671-.215-2.198.82-.64-.18-1.324-.267-2.004-.271-.68.003-1.364.091-2.003.269-1.528-1.035-2.2-.82-2.2-.82-.434 1.102-.16 1.915-.077 2.118-.512.56-.824 1.273-.824 2.147 0 3.064 1.867 3.751 3.645 3.954-.229.2-.436.552-.508 1.07-.457.204-1.614.557-2.328-.666 0 0-.423-.768-1.227-.825 0 0-.78-.01-.055.487 0 0 .525.246.889 1.17 0 0 .463 1.428 2.688.944v1.489c0 .211-.129.459-.528.385-3.18-1.057-5.472-4.056-5.472-7.59 0-4.419 3.582-8 8-8s8 3.581 8 8c0 3.533-2.289 6.531-5.466 7.59z"/></svg>
                     </a></li>
                 </ul>
@@ -94,7 +101,7 @@
                 <p>J'ai suivi une formation de programmation web (spécialité PHP), au cours de laquelle j'ai 
                 développé des compétences en HTML, CSS, PHP, SQL et Javascript.</p> 
                 <p>J'ai su renforcer mon savoir-faire en réalisant de nombreux projets avec des interlocuteurs variés : entreprises, organismes culturels, particuliers et universitaires.</p>
-                <button class="orange-classic">NOUS CONTACTER</button>
+                <button class="orange-classic" aria-label="Aller au formulaire de contact">NOUS CONTACTER</button>
             </div>
         </div>
     </section>
@@ -128,7 +135,7 @@
                             <span>Backend adapté à vos besoins</span>
                         </li>
                     </ul>
-                    <button class="orange-classic">EN SAVOIR PLUS</button>
+                    <button class="orange-classic" aria-label="Aller au formulaire de contact">CONTACT</button>
                 </div>
             </div>
         </div>
@@ -185,7 +192,7 @@
 
         <!-- Contact button -->
         <div>
-            <button class="orange-classic">CONTACT</button>
+            <button class="orange-classic" aria-label="Aller au formulaire de contact">CONTACT</button>
         </div>
     </section>
 
@@ -217,7 +224,7 @@
                 <input type="text" name="full-name" id="full-name" placeholder="Nom complet">
                 <input type="email" name="email" id="email" placeholder="Email">
                 <textarea placeholder="Votre message" rows="10"></textarea>
-                <button type="submit" class="orange-classic">ENVOYER</button>
+                <button type="submit" class="orange-classic" aria-label="Envoyer le mail">ENVOYER</button>
             </form>
 
             <div>
@@ -236,7 +243,7 @@
                     </div>
                     <div>
                         <h4>TÉLÉPHONE</h4>
-                        <a href="tel:5551234567">(+33) 6 77 61 25 26</a>
+                        <a href="tel:5551234567" aria-label="Téléphoner à Sysmod">(+33) 6 77 61 25 26</a>
                     </div>
                 </div>
             </div>
@@ -254,7 +261,7 @@
     </footer>
 
     <!-- Honeycomb responsive display -->
-    <script type="text/javascript" src="/js/script.js"></script>
+    <script src="/js/script.js"></script>
 </body>
 
 </html>

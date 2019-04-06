@@ -1,14 +1,3 @@
-/* Header */
-header div.contact button svg {
-    margin-right: 0;
-}
-header div.contact button span {
-    display: none;
-}
-header div.contact p {
-    display: none;
-}
-
 /* Orange button */
 section#biography > div.content div.biography button,
 section#choose-sysmod button,
