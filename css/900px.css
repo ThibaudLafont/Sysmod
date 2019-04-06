@@ -1,7 +1,11 @@
 /* General */
-
 div.header div.deco {
 	display: none;
+}
+
+/* Top section */
+section#top-section {
+	min-height: 400px;
 }
 
 /* Biography */

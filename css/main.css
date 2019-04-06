@@ -12,6 +12,10 @@ body {
 h2 {	
 	font-size: 35px;
 }
+button {
+	outline: none;
+	cursor: pointer;
+}
 .container{
 	width: 75%;
 	max-width: 1000px;
@@ -93,6 +97,7 @@ nav ul li {
 	display: inline;
 }
 nav ul li a {
+	display: inline-block;
 	color: white;
 	text-decoration: none;
 	padding: 0.5rem 1rem;
@@ -104,7 +109,7 @@ nav ul li a:hover {
 /* Green line Header */
 div.header {
 	display: table;
-	padding: 0 0 2rem 0; 
+	padding: 0 0 3rem 0; 
 	margin: auto;
 }
 div.header > * {
@@ -155,17 +160,17 @@ section#projects h2 span {
 /* Top section */
 section#top-section {
 	text-align: center;
-	min-height: 400px;
+	min-height: 600px;
 	background-image: url('/images/photos/1024px/bureau-sysmod-bg.jpg');
-	background-repeat: none;
+	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: bottom;
+	background-position: top;
 	position: relative;
 }
 section#top-section div.content{
 	position: absolute;
 	bottom: 0;
-	padding: 4rem 0 2rem 0;
+	padding: 10rem 0 3rem 0;
 	width: 100%;
 	color: white;
 	font-style: italic;
@@ -187,7 +192,7 @@ section#top-section p {
 /* Biography */
 section#biography {
 	overflow: auto;
-	padding: 2rem 0;
+	padding: 3rem 0;
 }
 /* Content */
 section#biography > div.content {
@@ -230,9 +235,9 @@ section#biography > div.content div.biography button {
 section#choose-sysmod {
 	clear: both;
 	background-image: url('/images/photos/1024px/thibaud-lafont-repair-smartphone-bg.jpg');
-	background-repeat: none;
+	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 2rem 0;
+	padding: 3rem 0;
 }
 section#choose-sysmod .container {
 	overflow: auto;
@@ -278,7 +283,7 @@ section#choose-sysmod li svg {
 
 /* Technologies */
 section#technologies {
-	padding: 2rem 0;
+	padding: 3rem 0;
 }
 section#technologies section#honeycomb-display {
 	display: table;
@@ -320,9 +325,10 @@ section#technologies > div {
 /* Projects */
 section#projects {
 	background: url('/images/photos/1024px/thibaud-lafont-coding-session.jpg');
-	background-repeat: none;
+	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 2rem 0;
+	background-position: center;
+	padding: 3rem 0;
 	overflow: auto;
 }
 section#projects div.container > div {
@@ -337,7 +343,7 @@ section#projects > .container > div > img {
 
 /* Contact */
 section#contact {
-	padding: 2rem 0;
+	padding: 3rem 0;
 	display: table;
 }
 section#contact section.content form,
