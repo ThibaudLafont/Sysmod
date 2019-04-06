@@ -1,0 +1,82 @@
+/* Biography */
+section#biography > div.content > div.aside {
+	width: 100%;
+}
+section#biography > div.content > div.aside > img {
+	display: block;
+	margin: auto;
+	padding: 0 0 1rem 0;
+}
+section#biography > div.content {
+	display: block;
+}
+section#biography > div.content > * {
+	display: block;
+}
+section#biography > div.content > div.aside > ul {
+	text-align: center;
+}
+section#biography > div.content div.biography {
+    padding: 1rem 0 0 0;
+	width: 100%;
+}
+
+/* Choose sysmod */
+section#choose-sysmod div.container > div {
+    display: block;
+}
+section#choose-sysmod div.container > div > * {
+    display: block;
+    margin: auto;
+}
+section#choose-sysmod div.container > div > img {
+	max-width: 250px;
+}
+section#choose-sysmod div.content {
+    width: 100%;
+}
+
+/* Technologies */
+section#technologies section#honeycomb-display {
+    display: block;
+}
+section#technologies section#honeycomb-display > * {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+section#technologies section#honeycomb-display > div {
+    padding: 0 0 1rem 0;
+}
+section#technologies section#legended-infos > div {
+    margin-bottom: 0;
+}
+section#technologies section#legended-infos > div > div.part {
+    display: table;
+    width: 100%;
+    float: none;
+    margin-bottom: 2rem;
+}
+
+/* Projects */
+section#projects div.container > div {
+    width: 50%;
+    padding: 1rem 1rem 2rem 1rem;
+    float: left;
+}
+
+/* Contact */
+section#contact section.content form, 
+section#contact section.content > div {
+	display: block;
+    width: 100%;
+}
+section#contact section.content > div {
+	display: block;
+    width: 100%;
+    overflow: auto;
+    padding-left: 0;
+}
+section#contact section.content > div > div {
+    margin-top: 2rem;
+}

@@ -185,8 +185,12 @@ section#biography {
 	padding: 2rem 0;
 }
 /* Content */
+section#biography > div.content {
+	display: table;
+}
 section#biography > div.content > * {
-	float: left;
+	display: table-cell;
+	vertical-align: middle;
 }
 section#biography > div.content div.aside {
 	width: 45%;
@@ -214,7 +218,9 @@ section#biography > div.content div.biography {
 section#biography > div.content div.biography p {
 	margin: 0 0 1rem ;
 }
-
+section#biography > div.content div.biography button {
+	float: right;
+}
 /* Choose Sysmod */
 section#choose-sysmod {
 	clear: both;
@@ -249,6 +255,7 @@ section#choose-sysmod div.content {
 }
 section#choose-sysmod ul {
 	padding: 0;
+	text-align: left;
 }
 section#choose-sysmod li {
 	padding: 0.5rem 0;
