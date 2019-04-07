@@ -89,7 +89,7 @@ function generateClientHtmlContent($message) {
 </html>";
 }
 
-function generateAdminHtmlContent($senderName, $senderMail, $senderPhone, $message) {
+function generateAdminHtmlContent($senderName, $senderMail, $message) {
 	return "
 <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">
 
@@ -154,7 +154,6 @@ function generateAdminHtmlContent($senderName, $senderMail, $senderPhone, $messa
 				<td align=\"left\" style=\"font-style: italic; font-family: 'Roboto', sans-serif;color:#1c1c1c; text-align:left;\">
 					Nom: {$senderName}<br/>
 					Mail: <a href='mailto:{$senderMail}'>{$senderMail}</a><br/>
-					Téléphone: {$senderPhone}<br/>
 					Message: \"{$message}\"
 				</td>
 			</tr>
@@ -173,12 +172,11 @@ function generateAdminHtmlContent($senderName, $senderMail, $senderPhone, $messa
 </html>";
 }
 
-function generateAdminRawContent($senderName, $senderMail, $senderPhone, $message){
+function generateAdminRawContent($senderName, $senderMail, $message){
 	return "
 Nouvelle prise de contact!
 Nom: {$senderName}
 Mail: {$senderMail}
-Téléphone: {$senderPhone}
 Message: \"{$message}\"
 ";
 }
