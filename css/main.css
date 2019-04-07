@@ -29,6 +29,10 @@ button.orange-classic{
 	padding: 0.5rem 1rem;
 	font-size: 1em;;
 }
+button.orange-classic:disabled{
+	background-color: #F08A4F;
+	cursor: none;
+}
 svg.linkedIn-logo {
 	fill: #0077B5;
 }
@@ -347,13 +351,33 @@ section#contact {
 	padding: 3rem 0;
 	display: table;
 }
+section#contact section.content form div.form-message {
+	text-align: left;
+	padding: 0.75rem;
+	margin-bottom: 0.5rem;    
+	color: #155724;
+    background-color: #d4edda;
+	border-radius: 5px;
+	border: 1px solid #c3e6cb;
+}
+section#contact section.content form div.form-message.success {
+	color: #155724;
+    background-color: #d4edda;
+	border-radius: 5px;
+	border: 1px solid #c3e6cb;
+}
+section#contact section.content form div.form-message.error {
+	color: #721c24;
+    background-color: #f8d7da;
+	border-radius: 5px;
+	border: 1px solid #f5c6cb;
+}
 section#contact section.content form,
 section#contact section.content > div {
 	display: table-cell;
 	vertical-align: middle;
 }
 section#contact section.content form {
-	text-align: right;
 	width: 65%;
 }
 section#contact section.content form > input,
@@ -368,6 +392,9 @@ section#contact section.content form > textarea {
 }
 section#contact section.content form > textarea {
 	resize: none;
+}
+section#contact section.content form > button {
+	width: 100%;
 }
 section#contact section.content > div > div {
 	display: table;

@@ -220,11 +220,12 @@
         </div>
         
         <section class="content">
-            <form>
-                <input type="text" name="full-name" id="full-name" placeholder="Nom complet" aria-label="Nom complet">
-                <input type="email" name="email" id="email" placeholder="Email" aria-label="Email">
-                <textarea placeholder="Votre message" rows="10" aria-label="Votre message"></textarea>
-                <button type="submit" class="orange-classic" aria-label="Envoyer le mail">ENVOYER</button>
+            <form id="contact-form">
+                <div id="form-messages"></div>
+                <input id="name-input" type="text" name="full-name" id="full-name" placeholder="Nom complet" aria-label="Nom complet">
+                <input id="email-input" type="email" name="email" id="email" placeholder="Email" aria-label="Email">
+                <textarea id="content-input" placeholder="Votre message" rows="10" aria-label="Votre message"></textarea>
+                <button id="form-submit" type="submit" class="orange-classic" aria-label="Envoyer le mail">ENVOYER</button>
             </form>
 
             <div>
@@ -262,6 +263,87 @@
 
     <!-- Honeycomb responsive display -->
     <script src="/js/script.js"></script>
+
+    <!-- Form -->
+    <script type="text/javascript">
+        var form = document.getElementById('contact-form');
+        form.onsubmit = function(event) {
+            // Prevent default
+            event.preventDefault();
+
+            // Validate form
+            var validation = validateForm(this);
+
+            // If valid submit
+            if(validation[0] === false) {
+                // Take care of button content
+                var button = document.getElementById('form-submit');
+                button.disabled = true;
+                button.textContent='.';
+                var loadingInterval = window.setInterval(loadingAnimation, 1000)
+
+                // Ajax request and response treatment
+            }
+
+        }
+
+        function loadingAnimation() {
+            var button = document.getElementById('form-submit');
+            if(button.textContent.length < 5 ) {
+                button.textContent += '.';
+            } else if(button.textContent.length >= 5) {
+                button.textContent = '.';
+            }
+        }
+
+        function validateForm(form){
+            // Clear form-messages
+            var messageParent = document.getElementById('form-messages');
+            messageParent.innerHTML = "";
+
+            // Success 
+            var success = true;
+
+            // Check all fields
+            // name field
+            var name = document.getElementById('name-input');
+            if(name.value.length === 0) {
+                appendFormMessage(messageParent, 'Veuillez renseigner un nom', 'error');
+                success = false;
+            }
+
+            // email field
+            var mail = document.getElementById('email-input');
+            if(mail.value.length === 0) {
+                appendFormMessage(messageParent, 'Veuillez renseigner un mail', 'error');
+                success = false;
+            } else if(!validateEmail(mail.value)) {
+                appendFormMessage(messageParent, 'Veuillez renseigner un mail valide', 'error');
+                success = false;
+            }
+
+            // content field
+            var content = document.getElementById('content-input');
+            if(content.value.length === 0) {
+                appendFormMessage(messageParent, 'Veuillez ajouter message', 'error');
+                success = false;
+            }
+
+            return [success, messageParent, name, mail, content];
+        }
+
+        function appendFormMessage(parent, content, type) {
+            var div = document.createElement('DIV');
+            div.textContent = content;
+            div.className = "form-message " + type;
+            parent.append(div)
+        }
+        
+        function validateEmail(email) {
+            var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            return re.test(String(email).toLowerCase());
+        }
+    </script>
 </body>
 
 </html>

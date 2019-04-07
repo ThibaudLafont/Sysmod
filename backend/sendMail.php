@@ -7,9 +7,7 @@ require '../vendor/autoload.php';
 require 'mailFunction.php';
 require 'templates/templates.php';
 
-
 $content = 'lorem teauygauza zaiudhiza ud';
-
 
 // Mail à admin
 $mail2 = new PHPMailer(true);
@@ -18,8 +16,8 @@ sendMail(
 	'contact@sysmod.fr',
 	'Sysmod',
 	'Demande de contact - sysmod.fr',
-	generateAdminHtmlContent('Thibaud Lafont', 'thibaudlafont@gmail.com','06 77 61 25 26', $content),
-	generateAdminRawContent('Thibaud Lafont', 'thibaudlafont@gmail.com','06 77 61 25 26', $content));
+	generateAdminHtmlContent('Thibaud Lafont', 'thibaudlafont@gmail.com', '06 77 61 25 26', $content),
+	generateAdminRawContent('Thibaud Lafont', 'thibaudlafont@gmail.com', '06 77 61 25 26', $content));
 
 // Confirmation d'envoi
 $mail = new PHPMailer(true);
