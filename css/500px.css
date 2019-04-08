@@ -1,3 +1,4 @@
+@media screen and (max-width: 500px) {
 /* Orange button */
 section#biography > div.content div.biography button,
 section#choose-sysmod button,
@@ -41,4 +42,5 @@ section#projects > .container > div > img {
 footer section.container img {
 	display: block;
 	margin: auto;
+}
 }

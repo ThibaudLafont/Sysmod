@@ -1,3 +1,4 @@
+@media screen and (max-width: 900px) {
 /* General */
 div.header div.deco {
 	display: none;
@@ -99,4 +100,5 @@ section#contact section.content > div {
 }
 section#contact section.content > div > div {
     margin-top: 2rem;
+}
 }
