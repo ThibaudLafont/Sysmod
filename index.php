@@ -19,16 +19,16 @@
 
     <!-- Stylesheets -->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/900px.css">
-    <link rel="stylesheet" href="/css/500px.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/900px.css">
+    <link rel="stylesheet" href="/assets/css/500px.css">
 
 </head>
 
 <body>
     <!-- Header -->
     <header class="container">
-        <img src="/images/logo/100px/logo-sysmod.jpg" alt="Logo de Sysmod">
+        <img src="/assets/images/logo/100px/logo-sysmod.jpg" alt="Logo de Sysmod">
         <section>
             <div class="contact">
                 <p>Appelez-nous <span>(+33) 6 77 61 25 26</span></p>
@@ -77,7 +77,7 @@
         <div class="content">
             <!-- Photos et réseaux -->
             <div class="aside">
-                <img src="/images/photos/450px/thibaud-lafont-coding-session.jpg" alt="Thibaud Lafont en séance de coding">
+                <img src="/assets/images/photos/450px/thibaud-lafont-coding-session.jpg" alt="Thibaud Lafont en séance de coding">
                 <ul class="social-networks">
                     <li ><a href="https://fr.linkedin.com/in/thibaud-lafont" 
                         aria-label="Accéder au profil LinkedIn de Thibaud Lafont" 
@@ -111,7 +111,7 @@
         <div class="container">
             <h2>CHOISIR <span>SYSMOD-WEB</span></h2>
             <div>
-                <img src="/images/photos/450px/thibaud-lafont_adrien-matcheret.jpg" alt="Thibaud Lafont et Adrien Matcheret">
+                <img src="/assets/images/photos/450px/thibaud-lafont_adrien-matcheret.jpg" alt="Thibaud Lafont et Adrien Matcheret">
                 <div class="content">
                     <ul>
                         <li>
@@ -159,31 +159,31 @@
                 <p>J'ai réalisé une formation à l'issue de laquelle j'ai obtenu un diplome de développeur d'applications web, avec une spécialité PHP/Symfony.</p>
                 <p>Par la suite j'ai eu l'occasion de mettre en pratique mes connaissances en créant diverses applications, avec diverses structures (entreprises, organismes culturels, particuliers et universitaires).</p>
             </div>
-            <img id="honeycomb" src="/images/pictograms/honeycomb-pictograms.svg" alt="Pictograms of main technologies in honeycomb">
+            <img id="honeycomb" src="/assets/images/pictograms/honeycomb-pictograms.svg" alt="Pictograms of main technologies in honeycomb">
         </section>
 
         <!-- Pictograms section -->
         <section id="legended-infos">
             <div>
                 <div class="part">
-                    <img src="/images/pictograms/100px/informatique-inverse.png" alt="Computer pictogram">
+                    <img src="/assets/images/pictograms/100px/informatique-inverse.png" alt="Computer pictogram">
                     <p>Nous développons tout type d'application avec des technologies, puissantes, fiables et 
                     éprouvées</p>
                 </div>
                 <div class="part">
-                    <img src="/images/pictograms/100px/globe.png" alt="Global pictogram">
+                    <img src="/assets/images/pictograms/100px/globe.png" alt="Global pictogram">
                     <p>Offrez-vous une visibilité en ligne, et profitez d'un site web adapté à vos
                     besoins et à ceux de vos clients</p>
                 </div>
             </div>
             <div>
                 <div class="part">
-                    <img src="/images/pictograms/100px/code-inverse.png" alt="Coding pictogram">
+                    <img src="/assets/images/pictograms/100px/code-inverse.png" alt="Coding pictogram">
                     <p>Profitez de l'expertise et des conseils d'un développeur confirmé, qui a de 
                     nombreux projets à son actif</p>
                 </div>
                 <div class="part">
-                    <img src="/images/pictograms/100px/server.png" alt="Server pictogram">
+                    <img src="/assets/images/pictograms/100px/server.png" alt="Server pictogram">
                     <p>Nous pouvons metre en en place une solution d'hébergement adaptée et performante 
                     pour votre site web</p>
                 </div>
@@ -200,10 +200,10 @@
     <section id="projects">
         <div class="container">
             <h2>QUELQUES <span>PROJETS</span></h2>
-            <div><img src="/images/logo/150px/logo-universite-tours.jpg" alt="Logo université de Tours"></div>
-            <div><img src="/images/logo/150px/logo-fondation-du-doute.jpg" alt="Logo Fondation Du Doute"></div>
-            <div><img src="/images/logo/150px/logo-famous-ultimate-crash-karaoke.jpg" alt="Logo Famous Ultimate Krash Karaoké"></div>
-            <div><img src="/images/logo/150px/logo-bertrand-malfray.jpg" alt="Logo Bertrand Malfray"></div>
+            <div><img src="/assets/images/logo/150px/logo-universite-tours.jpg" alt="Logo université de Tours"></div>
+            <div><img src="/assets/images/logo/150px/logo-fondation-du-doute.jpg" alt="Logo Fondation Du Doute"></div>
+            <div><img src="/assets/images/logo/150px/logo-famous-ultimate-crash-karaoke.jpg" alt="Logo Famous Ultimate Krash Karaoké"></div>
+            <div><img src="/assets/images/logo/150px/logo-bertrand-malfray.jpg" alt="Logo Bertrand Malfray"></div>
         </div>
     </section>
 
@@ -254,15 +254,14 @@
     <!-- Footer -->
     <footer>
         <section class="container">
-            <img src="/images/logo/150px/logo-sysmod.png" alt="Logo de Sysmod">
+            <img src="/assets/images/logo/150px/logo-sysmod.png" alt="Logo de Sysmod">
         </section>
         <p>
             Copyright © <?php echo date('Y'); ?> Sysmod - Tous droits réservés
         </p>
     </footer>
 
-    <!-- Honeycomb responsive display -->
-    <script src="/js/script.js"></script>
+    <script src="/assets/js/script.js"></script>
 </body>
 
 </html>

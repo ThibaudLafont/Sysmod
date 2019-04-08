@@ -166,7 +166,7 @@ section#projects h2 span {
 section#top-section {
 	text-align: center;
 	min-height: 600px;
-	background-image: url('/images/photos/1024px/bureau-sysmod-bg.jpg');
+	background-image: url('/assets/images/photos/1024px/bureau-sysmod-bg.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top;
@@ -239,7 +239,7 @@ section#biography > div.content div.biography button {
 /* Choose Sysmod */
 section#choose-sysmod {
 	clear: both;
-	background-image: url('/images/photos/1024px/thibaud-lafont-repair-smartphone-bg.jpg');
+	background-image: url('/assets/images/photos/1024px/thibaud-lafont-repair-smartphone-bg.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 3rem 0;
@@ -329,7 +329,7 @@ section#technologies > div {
 
 /* Projects */
 section#projects {
-	background: url('/images/photos/1024px/thibaud-lafont-coding-session.jpg');
+	background: url('/assets/images/photos/1024px/thibaud-lafont-coding-session.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
