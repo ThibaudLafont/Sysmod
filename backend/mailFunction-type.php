@@ -19,7 +19,7 @@ function sendMail($mail, $senderMail, $senderName, $subject, $htmlContent, $rawC
 	//Whether to use SMTP authentication
 	$mail->SMTPAuth = true;
 	//Username to use for SMTP authentication
-	$mail->Username = "admin@sysmod.fr";
+	$mail->Username = "email@email.fr";
 	//Password to use for SMTP authentication
 	$mail->Password = "XXXXX";
 	//Set who the message is to be sent from
