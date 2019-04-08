@@ -15,13 +15,11 @@
     <title>Sysmod</title>
     
     <!-- Links -->
-    <link rel="icon" type="image/x-icon" href="/images/favicon.png" />
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.png" />
 
     <!-- Stylesheets -->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="stylesheet" href="/assets/css/900px.css">
-    <link rel="stylesheet" href="/assets/css/500px.css">
+    <link rel="stylesheet" href="/dist/style.min.css">
 
 </head>
 
@@ -261,7 +259,7 @@
         </p>
     </footer>
 
-    <script src="/assets/js/script.js"></script>
+    <script src="/dist/script-min.js"></script>
 </body>
 
 </html>
