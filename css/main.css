@@ -31,7 +31,7 @@ button.orange-classic{
 }
 button.orange-classic:disabled{
 	background-color: #F08A4F;
-	cursor: none;
+	cursor: auto;
 }
 svg.linkedIn-logo {
 	fill: #0077B5;

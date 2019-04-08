@@ -17,7 +17,6 @@ if(!isset($_REQUEST['name']) || is_null($_REQUEST['name']) || empty($_REQUEST['n
 // Load Composer's autoloader
 require '../vendor/autoload.php';
 require 'mailFunction.php';
-require 'templates/templates.php';
 
 $content = 'lorem teauygauza zaiudhiza ud';
 
