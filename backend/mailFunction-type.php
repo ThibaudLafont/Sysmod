@@ -78,7 +78,7 @@ function generateClientHtmlContent($message) {
 			<tr>
 				<td align=\"center\" style=\"text-align:center\">
 					<a href=\"https://sysmod.fr\">
-						<img src=\"https://sysmod.fr/assets/logo/images/175px/logo-sysmod.png\" alt=\"Logo de Sysmod\" border=\"0\">
+						<img src=\"https://sysmod.fr/assets/images/logo/175px/logo-sysmod.png\" alt=\"Logo de Sysmod\" border=\"0\">
 					</a>
 				</td>
 			</tr>
@@ -159,7 +159,7 @@ function generateAdminHtmlContent($senderName, $senderMail, $message) {
 			<tr>
 				<td align=\"center\" style=\"text-align:center\">
 					<a href=\"https://sysmod.fr\">
-						<img src=\"https://sysmod.fr/assets/logo/images/175px/logo-sysmod.png\" alt=\"Logo de Sysmod\" border=\"0\">
+						<img src=\"https://sysmod.fr/assets/images/logo/175px/logo-sysmod.png\" alt=\"Logo de Sysmod\" border=\"0\">
 					</a>
 				</td>
 			</tr>
