@@ -233,7 +233,7 @@
                     </div>
                     <div>
                         <h4>LOCALISATION</h4>
-                        <p>Blois, Centre Val de Loire</p>
+                        <p>Tours, Centre Val de Loire</p>
                     </div>
                 </div>
                 <div>
