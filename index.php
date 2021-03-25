@@ -27,17 +27,6 @@
     <!-- Header -->
     <header class="container">
         <img src="/assets/images/logo/100px/logo-sysmod.jpg" alt="Logo de Sysmod">
-        <section>
-            <div class="contact">
-                <p>Appelez-nous <span>(+33) 6 77 61 25 26</span></p>
-                <button onClick="location.href='#contact'" aria-label="Aller au formulaire de contact">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="100%" viewBox="0 0 24 24">
-                        <path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/>
-                    </svg>
-                    <span>Envoyer un email</span>
-                </button>            
-            </div>            
-        </section>
     </header>
 
     <!-- Navigation bar -->
@@ -66,7 +55,7 @@
             <div class="deco"></div>
             <div class="content">
                 <h2>DÉVELOPPEUR INDÉPENDANT</h2>
-                <p>À 24 ans, j'ai depuis très jeune un attrait pour la programmation, le web et les nouvelles technologies</p>
+                <p>À 26 ans, j'ai depuis très jeune un attrait pour la programmation, le web et les nouvelles technologies</p>
             </div>
             <div class="deco"></div>
         </div>
@@ -99,6 +88,7 @@
                 <p>J'ai suivi une formation de programmation web (spécialité PHP), au cours de laquelle j'ai 
                 développé des compétences en HTML, CSS, PHP, SQL et Javascript.</p> 
                 <p>J'ai su renforcer mon savoir-faire en réalisant de nombreux projets avec des interlocuteurs variés : entreprises, organismes culturels, particuliers et universitaires.</p>
+                <p>Il m'a été donné l'occasion de travailler pour de grands comptes tels qu'Orange, SFR ou Eiffage Énergie lors de mes expériences salariées.</p>
                 <button onClick="location.href='#contact'" class="orange-classic" aria-label="Aller au formulaire de contact">NOUS CONTACTER</button>
             </div>
         </div>
@@ -218,13 +208,6 @@
         </div>
         
         <section class="content">
-            <form id="contact-form">
-                <div id="form-messages"></div>
-                <input id="name-input" type="text" name="full-name" id="full-name" placeholder="Nom complet" aria-label="Nom complet">
-                <input id="email-input" type="email" name="email" id="email" placeholder="Email" aria-label="Email">
-                <textarea id="content-input" placeholder="Votre message" rows="10" aria-label="Votre message"></textarea>
-                <button id="form-submit" type="submit" class="orange-classic" aria-label="Envoyer le mail">ENVOYER</button>
-            </form>
 
             <div>
                 <div>
@@ -242,7 +225,7 @@
                     </div>
                     <div>
                         <h4>TÉLÉPHONE</h4>
-                        <a href="tel:5551234567" aria-label="Téléphoner à Sysmod">(+33) 6 77 61 25 26</a>
+                        <a href="tel:5551234567" aria-label="Téléphoner à Sysmod">06 77 61 25 26</a>
                     </div>
                 </div>
             </div>
